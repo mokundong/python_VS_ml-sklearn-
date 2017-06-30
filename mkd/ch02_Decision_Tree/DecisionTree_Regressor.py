@@ -49,8 +49,8 @@ def test_DecisionTreeRegressor_depth(*data,maxdepth):
     for depth in depths:
         regr = DecisionTreeRegressor(max_depth=depth)
         regr.fit(X_train,y_train)
-        #print("Training Score:%f" %(regr.score(X_train,y_train)))
-        #print("Testing Score:%f" %(regr.score(X_test,y_test)))
+        print("Training Score:%f" %(regr.score(X_train,y_train)))
+        print("Testing Score:%f" %(regr.score(X_test,y_test)))
     #plot
     fig = plt.figure()
     ax = fig.add_subplot(1,1,1)
