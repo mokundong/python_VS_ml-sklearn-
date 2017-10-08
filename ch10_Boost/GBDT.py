@@ -116,8 +116,8 @@ def test_GradientBoostingClassifier_max_features(*data):
 if __name__=='__main__':
     X_train,X_test,y_train,y_test=load_data_classification() # 获取分类数据
     test_GradientBoostingClassifier(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier
-    # test_GradientBoostingClassifier_num(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_num
-    # test_GradientBoostingClassifier_maxdepth(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_maxdepth
-    # test_GradientBoostingClassifier_learning(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_learning
-    # test_GradientBoostingClassifier_subsample(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_subsample
-    # test_GradientBoostingClassifier_max_features(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_max_features
+    test_GradientBoostingClassifier_num(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_num
+    test_GradientBoostingClassifier_maxdepth(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_maxdepth
+    test_GradientBoostingClassifier_learning(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_learning
+    test_GradientBoostingClassifier_subsample(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_subsample
+    test_GradientBoostingClassifier_max_features(X_train,X_test,y_train,y_test) # 调用 test_GradientBoostingClassifier_max_features
